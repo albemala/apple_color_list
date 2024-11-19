@@ -4,23 +4,22 @@ version: 0.0.1
 homepage:
 
 environment:
-  sdk: ^3.5.4
-  flutter: '>=3.3.0'
+  sdk: '>=3.5.0 <4.0.0'
+  flutter: ">=3.24.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  plugin_platform_interface: ^2.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
+  build_runner: ^2.4.13
+  pigeon: ^22.6.1
 
-# The following section is specific to Flutter packages.
+  very_good_analysis: ^6.0.0
+
 flutter:
   # This section identifies this Flutter project as a plugin project.
   # The 'pluginClass' specifies the class (in Java, Kotlin, Swift, Objective-C, etc.)
