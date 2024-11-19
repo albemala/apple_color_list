@@ -1,18 +1,39 @@
 # apple_color_list
 
-A new Flutter plugin project.
+A Flutter plugin to read and write Apple color list (.clr) files.
+
+## Platform Support
+
+This plugin supports macOS platform only.
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+To use this plugin, add the following dependencies to your `pubspec.yaml` file:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```yaml
+dependencies:
+  apple_color_list:
+    git:
+      url: https://github.com/albemala/apple_color_list
+      ref: v1.0.0
+```
 
-The plugin project was generated without specifying the `--platforms` flag, no platforms are currently supported.
-To add platforms, run `flutter create -t plugin --platforms <platforms> .` in this directory.
-You can also find a detailed instruction on how to add platforms in the `pubspec.yaml` at https://flutter.dev/to/pubspec-plugin-platforms.
+## Usage
+
+Import the package in your Dart code:
+
+```dart
+import 'package:apple_color_list/apple_color_list.dart';
+```
+
+Here are some examples of how to use the plugin:
+
+```dart
+// Read a color list from a file
+final colorList = await _colorList.readColorList(tempFile.path);
+
+// Write a color list to a file
+await _colorListPlugin.writeColorList(colorList, filePath);
+```
+
+For more detailed usage instructions and a complete API reference, please refer to the documentation.

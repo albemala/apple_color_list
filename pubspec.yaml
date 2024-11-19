@@ -1,6 +1,6 @@
 name: apple_color_list
-description: "A new Flutter plugin project."
-version: 0.0.1
+description: "A Flutter plugin to read and write Apple color list (.clr) files."
+version: 1.0.0
 homepage:
 
 environment:
