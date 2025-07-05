@@ -15,7 +15,7 @@ dependencies:
   apple_color_list:
     git:
       url: https://github.com/albemala/apple_color_list
-      ref: v1.0.0
+      ref: 1.0.0
 ```
 
 ## Usage
@@ -29,11 +29,13 @@ import 'package:apple_color_list/apple_color_list.dart';
 Here are some examples of how to use the plugin:
 
 ```dart
+final plugin = AppleColorListPlugin();
+
 // Read a color list from a file
-final colorList = await _colorList.readColorList(tempFile.path);
+final colorList = await plugin.readColorList(filePath);
 
 // Write a color list to a file
-await _colorListPlugin.writeColorList(colorList, filePath);
+await plugin.writeColorList(colorList, filePath);
 ```
 
 For more detailed usage instructions and a complete API reference, please refer to the documentation.
