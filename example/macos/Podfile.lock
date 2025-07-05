@@ -1,5 +1,5 @@
 PODS:
-  - apple_color_list (0.0.1):
+  - apple_color_list (2.0.0):
     - FlutterMacOS
   - file_picker (0.0.1):
     - FlutterMacOS
@@ -30,7 +30,7 @@ EXTERNAL SOURCES:
     :path: Flutter/ephemeral/.symlinks/plugins/path_provider_foundation/darwin
 
 SPEC CHECKSUMS:
-  apple_color_list: 5ddb37c3471d04aef72ef2f0954ab4abeb6df812
+  apple_color_list: 8ac9d2f0dbe60b5acb80685e9f58fba4c2669c6f
   file_picker: 7584aae6fa07a041af2b36a2655122d42f578c1a
   file_selector_macos: 6280b52b459ae6c590af5d78fc35c7267a3c4b31
   FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
