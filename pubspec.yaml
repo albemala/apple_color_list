@@ -15,10 +15,10 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  build_runner: ^2.4.13
-  pigeon: ^22.6.1
+  build_runner: ^2.5.4
+  pigeon: ^25.5.0
 
-  very_good_analysis: ^6.0.0
+  very_good_analysis: ^8.0.0
 
 flutter:
   # This section identifies this Flutter project as a plugin project.
