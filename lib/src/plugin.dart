@@ -22,7 +22,7 @@ class AppleColorListPlugin {
   /// Throws an exception if the file cannot be written.
   Future<void> writeColorList(AppleColorList colorList, String path) async {
     try {
-      _api.writeColorList(colorList, path);
+      await _api.writeColorList(colorList, path);
     } catch (e) {
       throw ColorListException('Failed to write color list: $e');
     }
